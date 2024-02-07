@@ -1,0 +1,11 @@
+.btn-contato{
+  background: var(--cor-10);
+  color: var(--cor-1);
+  font: 400 0.875rem/1.2'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

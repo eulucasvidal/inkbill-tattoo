@@ -1,0 +1,27 @@
+.sobre-bg{
+  background: var(--cor-6);
+}
+.sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  color: var(--cor-1);
+}
+
+.sobre-redes-sociais{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.sobre-conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sobre-conteudo h2, .sobre > span{
+  text-transform: uppercase;
+  letter-spacing: -10px;
+  line-height: 95px;
+  width: 7ch;
+}

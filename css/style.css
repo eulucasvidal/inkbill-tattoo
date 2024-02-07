@@ -1,0 +1,15 @@
+/* GLOBAL */
+@import './global/header.css';
+@import './global/global.css';
+@import './global/footer.css';
+
+/* ASSETS */
+@import './assets/utilidades/componentes.css';
+@import './assets/utilidades/cores.css';
+@import './assets/utilidades/tipografia.css';
+@import './assets/botoes/botao-contato.css';
+
+/* HOME */
+@import './home/introducao.css';
+@import './home/sobre.css';
+@import './home/trabalhos.css';

@@ -1,0 +1,12 @@
+.trabalhos-bg{
+  background-image: url(../../img/background/bg-white.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.trabalhos-fotos{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}

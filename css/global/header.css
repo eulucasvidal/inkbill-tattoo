@@ -1,0 +1,13 @@
+.header-bg{
+  background: var(--cor-2);
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-contato{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
