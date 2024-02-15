@@ -4,3 +4,63 @@
   margin-left: auto;
   margin-right: auto;
 }
+.letreiro{
+  letter-spacing: -10px;
+  font: 400 12.5rem/0.71'Archivo Black', sans-serif;
+  color: black;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+.gradient-txt-1{
+  background: linear-gradient(
+    to bottom,
+    var(--cor-9),
+    var(--cor-4),
+    var(--cor-3));
+  color: transparent;
+  background-clip: text;
+  padding: 5px;
+}
+.gradient-txt-2{
+  background: linear-gradient(
+    to bottom,
+    var(--cor-9),
+    var(--cor-7));
+  color: transparent;
+  background-clip: text;
+}
+.titulo{
+  font: 400 7rem/1.2'Archivo Black', sans-serif;
+  line-height: 65px;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+.email{
+  font: 400 2.5rem/1.2'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  color: var(--cor-10);
+}
+@media(max-width:1380px){
+  .letreiro{
+    font-size: 8.3rem;
+  }
+  .titulo{
+    font-size: 5rem;
+  }
+}
+@media(max-width:820px){
+  .container{
+    padding: 30px 15px;
+  }
+  .letreiro{
+    font-size: 4.75rem;
+  }
+  .titulo{
+    font-size: 3rem;
+    line-height: 35px;
+  }
+  .email{
+    font-size: 1.25rem;
+  }
+}
