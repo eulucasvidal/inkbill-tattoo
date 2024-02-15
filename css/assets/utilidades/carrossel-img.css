@@ -1,0 +1,22 @@
+.container-carrossel{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.carrossel-infinito{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0.5rem;
+  animation: img-infinito 20000ms linear infinite;
+}
+
+@keyframes img-infinito{
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}

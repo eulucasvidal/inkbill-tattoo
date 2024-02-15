@@ -19,11 +19,6 @@
   align-self: center;
   max-width: 10ch;
 }
-.introducao-carrossel{
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 25px;
-}
 @media(max-width:1380px){
   .introducao-txt p{
     align-self: flex-end;

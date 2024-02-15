@@ -8,17 +8,21 @@
   gap: 30px;
   color: var(--cor-1);
 }
-.sobre-redes-sociais{
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  gap: 40px;
+.sobre-container-txt{
+display: flex;
 }
 .sobre-conteudo{
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+.sobre-redes-sociais{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 40px;
+}
+
 @media(max-width:820px){
   .sobre{
     padding-top: 50px;
