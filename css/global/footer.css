@@ -25,6 +25,12 @@
   background: var(--cor-8);
   color: var(--cor-1);
 }
+.footer-info{
+  align-items: flex-start;
+}
+.footer-info h4{
+  border-bottom: 1px solid var(--cor-1);
+}
 .footer-info,
 .footer-lista{
   display: flex;
