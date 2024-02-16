@@ -46,7 +46,9 @@
   text-transform: capitalize;
   gap: 30px;
 }
-
+.btn-topo{
+  cursor: pointer;
+}
 @media(max-width:820px){
   .footer-bloco-listas{
     grid-template-columns: 1fr;
