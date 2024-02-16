@@ -12,13 +12,14 @@
 .trabalhos > h2{
   line-height:90px ;
 }
-.trabalhos-fotos{
+.trabalhos-galeria{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
 }
+
 @media(max-width:1250px){
-  .trabalhos-fotos{
+  .trabalhos-galeria{
     grid-template-columns:auto auto;
   }
 }
@@ -29,7 +30,7 @@
   .trabalhos > h2{
     line-height:40px;
   }
-  .trabalhos-fotos{
+  .trabalhos-galeria{
     grid-template-columns:auto;
   }
 }

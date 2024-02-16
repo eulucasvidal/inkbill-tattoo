@@ -22,7 +22,13 @@ display: flex;
   padding: 15px;
   gap: 40px;
 }
-
+.sobre-redes-sociais li a img{
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+.sobre-redes-sociais li a img:hover{
+  border-color: var(--cor-10);
+}
 @media(max-width:820px){
   .sobre{
     padding-top: 50px;

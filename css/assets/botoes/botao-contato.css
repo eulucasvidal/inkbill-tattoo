@@ -7,5 +7,9 @@
   border: none;
   border-radius: 20px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
   cursor: pointer;
+}
+.btn-contato:hover{
+  background: var(--cor-11);
 }

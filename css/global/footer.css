@@ -29,7 +29,14 @@
   align-items: flex-start;
 }
 .footer-info h4{
-  border-bottom: 1px solid var(--cor-1);
+  border-bottom: 1px solid var(--cor-10);
+}
+.footer-lista li a{
+  border-bottom: 2px solid transparent;
+  transition: linear 0.3s;
+}
+.footer-lista li a:hover{
+  border-color: var(--cor-10);
 }
 .footer-info,
 .footer-lista{
@@ -39,6 +46,7 @@
   text-transform: capitalize;
   gap: 30px;
 }
+
 @media(max-width:820px){
   .footer-bloco-listas{
     grid-template-columns: 1fr;
@@ -48,5 +56,6 @@
   .footer-info{
     border-bottom: 1px solid var(--cor-1);
     padding-bottom: 40px;
+    align-items: center;
   }
 }
